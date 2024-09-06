@@ -1,0 +1,84 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Light grey background */
+  color: #333; /* Dark grey for text */
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-display {
+  font-size: 100px;
+  margin: 20px 0;
+  color: #2f4f4f; /* Sage green for the counter text */
+}
+
+.tally-button {
+  background-color: #dfe6d8; /* Light sage green */
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid #556b2f; /* Dark sage green for arrow */
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.edit-button, .reset-button {
+  background-color: #ccc; /* Light grey for buttons */
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #fff; /* White text */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.edit-button:hover, .reset-button:hover {
+  background-color: #aaa; /* Darker grey for hover state */
+}
+
+.edit-button {
+  background-color: #d4af37; /* Gold color for Edit button */
+}
+
+.reset-button {
+  background-color: #888; /* Mid-grey for Reset button */
+}
+
+.tally-button:hover {
+  background-color: #bfc8b8; /* Slightly darker sage green on hover */
+}
